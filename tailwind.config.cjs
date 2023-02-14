@@ -2,7 +2,15 @@
 module.exports = {
   content: ["./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    fontFamily: {
+      display: "var(--poppins-font)",
+    },
+    extend: {
+      colors: {
+        primary: "#5b6fd6",
+        secondary: "#ebcf4d",
+      },
+    },
   },
   plugins: [],
 };
